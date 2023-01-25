@@ -5,7 +5,7 @@
   "homepage": "https://andybod.github.io/goit-js-hw-08",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html https://github.com/andybod /goit-js-hw-08/"
+    "build": "parcel build src/*.html https://andybod.github.io/goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
