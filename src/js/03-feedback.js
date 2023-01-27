@@ -29,3 +29,4 @@ function setValueFormInput() {
     message.value = getDataStorage.message;
   }
 }
+// console.log(0);
