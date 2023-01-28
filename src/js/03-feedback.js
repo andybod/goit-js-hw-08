@@ -9,7 +9,7 @@ formEl.addEventListener('submit', OnFormSubmit);
 setValueFormInput();
 function onFormInput({ target }) {
   formData[target.name] = target.value;
-  strFormatData = JSON.stringify(formData);
+  const strFormatData = JSON.stringify(formData);
   localStorage.setItem(STARAGE_KEY, strFormatData);
 }
 
